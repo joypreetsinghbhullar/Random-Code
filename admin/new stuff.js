@@ -10,4 +10,3 @@ def on_button_pressed_b():
             basic.show_string("Roti")
         elif dialacurry == 2:
             basic.show_string("Veg Spring Roll")
-  
