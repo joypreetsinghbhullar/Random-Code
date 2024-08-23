@@ -1,52 +1,78 @@
+let day_of_week = 0
+function PE () {
+    basic.showString("Uniform")
+    basic.showString("Water bottle")
+    basic.showString("Hat")
+}
 input.onButtonPressed(Button.A, function () {
-    if (daySelected == "no") {
-        basic.showString("" + (week[nextDay]))
-        nextDay += 1
-        if (nextDay == 4) {
-            nextDay = 0
-        }
-    }
-    if (daySelected == "yes") {
-        if (nextDay == 1) {
-            basic.showString("" + (monday[nextSubject]))
-            nextSubject += 1
-            if (nextSubject == 4) {
-                nextSubject = 0
-            }
-        }
+    if (day_of_week == 1) {
+        basic.showString("monday", 85)
+basic.pause(100)
+        basic.showString("maths", 85)
+Maths()
+        basic.showString("pe", 85)
+PE()
+        basic.showString("french", 85)
+French()
+    } else if (day_of_week == 2) {
+        basic.showString("tuesday", 85)
+basic.pause(100)
+        basic.showString("science", 85)
+Science()
+        basic.showString("french", 85)
+French()
+        basic.showString("pe", 85)
+PE()
+    } else if (day_of_week == 3) {
+        basic.showString("wednesday", 85)
+basic.pause(100)
+        basic.showString("maths", 85)
+Maths()
+        basic.showString("pe", 85)
+PE()
+        basic.showString("science", 85)
+Science()
+    } else if (day_of_week == 4) {
+        basic.showString("thursday", 85)
+basic.pause(100)
+        basic.showString("science", 85)
+Science()
+        basic.showString("maths", 85)
+Maths()
+        basic.showString("french", 85)
+French()
+    } else if (day_of_week == 5) {
+        basic.showString("friday", 85)
+basic.pause(100)
+        basic.showString("pe", 85)
+PE()
+        basic.showString("science", 85)
+Maths()
+        basic.showString("maths", 85)
+Maths()
+    } else {
+    	
     }
 })
+function Maths () {
+    basic.showString("Calculator")
+    basic.showString("Ruler")
+    basic.showString("Graph book")
+}
 input.onButtonPressed(Button.B, function () {
-    if (nextDay == 1) {
-        daySelected = "yes"
+    day_of_week += 1
+    basic.showString("" + day_of_week)
+    if (day_of_week == 5) {
+        day_of_week = 0
     }
 })
-let monday: string[] = []
-let week: string[] = []
-let nextDay = 0
-let nextSubject = 0
-let daySelected = ""
-let subjectSelected = "no"
-daySelected = "no"
-nextSubject = 0
-let nextTool = 0
-nextDay = 0
-week = [
-"mo",
-"tu",
-"we",
-"th",
-"fr"
-]
-monday = ["1", "2", "3"]
-let tuesday = ["4", "5", "6"]
-let wednesday = ["7", "8", "9"]
-let thursday = ["10", "11", "12"]
-let friday = ["13", "14", "15"]
-let hpeTools = ["16", "17", "18"]
-let mathsTools = ["Ruler", "Graph_Book", "Case"]
-let englishTools = ["Dictionary", "Book"]
-let chineseTools = ["TextBooks", "Graph_Book", "Case"]
-basic.forever(function () {
-	
-})
+function French () {
+    basic.showString("Textbook")
+    basic.showString("Notebook")
+    basic.showString("Pencil")
+}
+function Science () {
+    basic.showString("Laptop")
+    basic.showString("Notebook")
+    basic.showString("Pencil")
+}
