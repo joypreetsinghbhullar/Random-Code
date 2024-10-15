@@ -19,3 +19,30 @@ profile test_01
 <td align="center" style="padding=0;width=50%;"><a href=">![Github stats](https://github-readme-stats.vercel.app/api?username=joypreetsinghbhullar&show_icons=true&theme=dark&hide_border=true)</td>
 </table>
 </details>
+
+<details>
+  <summary>Coding Stats</summary>
+
+  <table>
+    <tr>
+      <td align="center" style="padding: 0; width: 50%;">
+        <a href="#">
+          <img src="https://github-readme-stats.vercel.app/api?username=joypreetsinghbhullar&show_icons=true&theme=dark&hide_border=true" alt="Github stats" />
+        </a>
+      </td>
+      <td align="center" style="padding: 0; width: 50%;">
+        <a href="https://git.io/streak-stats">
+          <img src="http://github-readme-streak-stats.herokuapp.com?user=joypreetsinghbhullar&theme=dark&hide_border=true" alt="GitHub Streak" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center" style="padding: 0;">
+        <a href="#">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=joypreetsinghbhullar&layout=compact&theme=blueberry&count_private=true&hide_border=true" alt="Top Langs" />
+        </a>
+      </td>
+    </tr>
+  </table>
+
+</details>
