@@ -84,3 +84,5 @@ profile test_01
 
 </details>
 
+  <a href="#">![Github stats](https://github-readme-stats.vercel.app/api?username=torvalds&show_icons=true&theme=dark&hide_border=true)</a>
+
